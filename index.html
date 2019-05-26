@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Samsung Store</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" 
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar">
+        <div class="navbar-center">
+           <span class="nav-icon">
+               <i class="fas fa-bars"></i>
+           </span> 
+           
+            <div class="cart-btn">
+               <span class="nav-icon">
+                   <i class="fas fa-cart-plus"></i>
+               </span> 
+               <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- poster-->
+    <header class="hero">
+        <div class="banner">
+           <h1 class="banner-title">Samsung Store</h1>
+           <button class="banner-btn">Shop now</button>  
+        </div>
+    </header>
+    <!-- end of poster-->
+    <!-- products -->
+    <section class="products">
+        <div class="section-title">
+            <h2>Our Products</h2>
+        </div>
+        <div class="products-center">
+            
+        </div>
+    </section> 
+    <!-- end of products -->
+    <!-- cart -->
+        <div class="cart-overlay">
+            <div class="cart">
+               <span class="close-cart">
+                   <i class="fas fa-window-close"></i>
+               </span> 
+               <h2>Your cart</h2>
+               <div class="cart-content">
+                  <!-- cart item -->
+                    <!--<div class="cart-item">
+                      
+                    </div>
+                  <!-- end of cart item --> 
+               </div>
+                <div class="cart-footer">
+                    <h3>your total: $ <span class="cart-total">0</span></h3>
+                    <button class="clear-cart banner-btn">clear cart</button>
+                </div>
+            </div>
+        </div>
+    <!-- end of cart-->
+    <!-- java script -->
+   <script src="app.js"></script> 
+  
+</body>
+</html>
+
